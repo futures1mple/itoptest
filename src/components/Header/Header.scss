@@ -1,0 +1,32 @@
+.Header {
+    background-color: dimgrey;
+    padding: 1rem;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .logo {
+            font-size: 2rem;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+
+        .currency-container {
+
+            .currency-block {
+                display: flex;
+
+                .name {
+                    color: whitesmoke;
+                    font-weight: bold;
+                    margin-right: 0.5rem;
+                }
+                .rate {
+                    color: whitesmoke;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.Convert {
+
+    .convert-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+
+        .convert-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .convert-currency-block {
+                border: 1px solid lightgray;
+            }
+
+            
+            select {
+                border: none;
+                padding: 1rem;
+                outline: none !important;
+
+                
+            }
+
+            input {
+                border: none;
+                padding: 1rem;
+                outline: none !important;
+            }
+
+        }
+
+        .sign {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            svg {
+                height: 1rem;
+            }
+        }
+    }
+}
